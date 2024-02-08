@@ -8,3 +8,7 @@ In addition to its search functionality, the app includes direct messaging capab
 
 To sustain the platform, the app deducts a small fee based on the agreed-upon job price. This fee helps maintain and improve the app’s features, ensuring it continues to serve as a reliable platform for skill exchange. In essence, this community application is more than just a platform; it’s a tool that empowers individuals to monetize their skills, fosters collaboration, and promotes a culture of shared growth and learning. It’s not just about finding a job; it’s about building a community.
 ![processed-B9DA4F67-6BF4-436B-933B-BEC8482696EC](https://github.com/FreeFormFAMU/.github/assets/96313489/496c3cb1-ce0c-4a27-bbd3-08a64b89aeca)
+
+
+https://github.com/FreeFormFAMU/.Konnetz/assets/96313489/aff47ce5-a77e-40ee-84e9-63429eebfd78
+
