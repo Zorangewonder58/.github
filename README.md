@@ -12,3 +12,10 @@ To sustain the platform, the app deducts a small fee based on the agreed-upon jo
 
 https://github.com/FreeFormFAMU/.Konnetz/assets/96313489/aff47ce5-a77e-40ee-84e9-63429eebfd78
 
+
+| Property | Type | Description |
+|-----------------|-----------------|-----------------|
+| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
+| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
+| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+
