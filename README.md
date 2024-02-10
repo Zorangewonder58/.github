@@ -1,5 +1,5 @@
 # .Connectz
-COP3060 Class project
+ 	# H1 COP3060 Class project
 
 A dynamic community application designed to bring together individuals with diverse skills, enabling them to monetize their expertise. This platform serves as a digital marketplace where users can advertise the services they offer and set their own prices.
 
