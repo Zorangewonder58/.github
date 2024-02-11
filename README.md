@@ -13,32 +13,97 @@ To sustain the platform, the app deducts a small fee based on the agreed-upon jo
 https://github.com/FreeFormFAMU/.Konnetz/assets/96313489/aff47ce5-a77e-40ee-84e9-63429eebfd78
 
 
-## Sample Header 1
+## User
 | Property | Type | Description |
 |-----------------|-----------------|-----------------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| user_id | Reference | userId Reference |
+| username  | String | users unique username |
+| email | String | User email | 
+| password | String | User password  |
+| created_at | TimeStamp | User TimeStamp of created Post |
+| updated_at | TimeStamp | User TimeStamp of updated Post |
 
-## Sample Header 2
+## Skills
 | Property | Type | Description |
 |-----------------|-----------------|-----------------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| skils_id  | Reference | skills_id Reference |
+| user_id | Int | user_id Reference |
+| skills_name | String | Users skills name |
+| skills_description | String | Users skills description |
+| created_at | Timestamp | Date value|
+| updated_at | Timestamp | Date value |
 
-## Sample Header 3
+## Post 
 | Property | Type | Description |
 |-----------------|-----------------|-----------------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| post_id | Reference | post_id Refrenece |
+| user_id | int | Cloud References |
+| content | String | Content information |
+| created_at | Timestamp | Date value |
+| updated_at | Timestamp | Date value |
 
-## Sample Header 4
+## Messages
 | Property | Type | Description |
 |-----------------|-----------------|-----------------|
-| Row 1, Column 1 | Row 1, Column 2 | Row 1, Column 3 |
-| Row 2, Column 1 | Row 2, Column 2 | Row 2, Column 3 |
-| Row 3, Column 1 | Row 3, Column 2 | Row 3, Column 3 |
+| message_id | Reference | message_id Reference |
+| sender_id | int | sender_id Reference |
+| receiver_id | int | recevicer_id Reference | 
+| message_content | String | message content | 
+| send_at | Timmestamp | Date value | 
+| read_at | Timestamp | Date value | 
+
+## Following
+| Property | Type | Description |
+|-----------------|-----------------|-----------------|
+| following_id | Refernece | following_id Refernece |
+| user_id | int | user_id Reference |
+| following_user_id | int | following_user_id Reference |
+
+## Followers
+| Property | Type | Description |
+|-----------------|-----------------|-----------------|
+| followers_id | Reference | followers_id Reference |
+| user_id | int | Reference |
+| follower_user_id | int | Reference |
+
+## Saved Post Table 
+| Property | Type | Description |
+|-----------------|-----------------|-----------------|
+| saved_post_id | Reference | saved_post_id Reference |
+| user_id | int | user_id Reference |
+| post_id | int | post_id Reference |
+| saved_at | Timestamp | Date Value |
+
+## Liked Posts Table 
+| Property | Type | Description |
+|-----------------|-----------------|-----------------|
+| liked_post_id | Reference | liked_post_id Reference |
+| user_id | int | user_id Reference |
+| post_id | int | post_id Refernece |
+| liked_at | Timestamp | Date value |
+
+## Comments Table 
+| Property | Type | Description |
+|-----------------|-----------------|-----------------|
+| comment_id | Reference | comment_id Reference |
+| user_id | int | user_id Reference |
+| post_id | int | post_id Reference |
+| comment_text | String | comment_text string value |
+| commented_at | Timestamp | Date value |
+
+## Feed Table 
+| Property | Type | Description |
+|-----------------|-----------------|-----------------|
+| feed_id | Reference | feed_id Reference |
+| user_id | int | Reference |
+| item_type | string | item_type value |
+| item_content | Refernce | photos,videos |
+| created_at | Timestamp | Date Value |
+| likes_count | int | like_count int value |
+| comments_count | int | comments_count int value |
+
+
+
+
 
 
